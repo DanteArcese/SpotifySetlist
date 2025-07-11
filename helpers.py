@@ -88,3 +88,12 @@ def set_spotify_environment(config):
 		os.environ['SPOTIPY_CLIENT_ID'] = environ.get('SPOTIPY_CLIENT_ID', '')
 		os.environ['SPOTIPY_CLIENT_SECRET'] = environ.get('SPOTIPY_CLIENT_SECRET', '')
 		os.environ['SPOTIPY_REDIRECT_URI'] = config.get('redirectURI', '')
+
+def current_year():
+	return localtime().tm_year
+
+def playlist_name(artist):
+	return f'{artist} {current_year()} Tour Setlist | Live Songs & Concert Tracks'
+
+def playlist_description(artist):
+	return f'{artist} setlist.fm playlist | {current_year()} tour | live concert songs | auto-updated | github.com/DanteArcese/SpotifySetlist'

@@ -39,10 +39,10 @@ def update_playlist(sp, config, playlist, track_ids, artist, song_count):
 	if not playlist_id:
 		new_playlist = sp.spotify.user_playlist_create(
 			config['username'],
-			f'{artist} Updated Setlist',
+			playlist_name(artist),
 			public=True,
 			collaborative=False,
-			description=f'Playlist automatically updated from recent setlist.fm setlists | Last updated: {smart_time()} ET. | github.com/DanteArcese/SpotifySetlist.'
+			description=playlist_description(artist)
 		)
 		playlist_id = new_playlist.get('id') if new_playlist else None
 		if playlist_id:
@@ -53,10 +53,10 @@ def update_playlist(sp, config, playlist, track_ids, artist, song_count):
 		sp.spotify.user_playlist_change_details(
 			config['username'],
 			playlist_id,
-			f'{artist} Updated Setlist',
+			playlist_name(artist),
 			public=True,
 			collaborative=False,
-			description=f'Playlist automatically updated from recent setlist.fm setlists | Last updated: {smart_time()} ET. | github.com/DanteArcese/SpotifySetlist.'
+			description=playlist_description(artist)
 		)
 
 	if playlist_id:
