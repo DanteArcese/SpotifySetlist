@@ -42,7 +42,7 @@ def update_playlist(sp, config, playlist, track_ids, artist, song_count):
 			f'{artist} Updated Setlist',
 			public=True,
 			collaborative=False,
-			description=f'Playlist automatically updated from setlist.fm. Last updated on {smart_time()} ET.'
+			description=f'Playlist automatically updated from recent setlist.fm setlists | Last updated: {smart_time()} ET. | github.com/DanteArcese/SpotifySetlist.'
 		)
 		playlist_id = new_playlist.get('id') if new_playlist else None
 		if playlist_id:
@@ -56,7 +56,7 @@ def update_playlist(sp, config, playlist, track_ids, artist, song_count):
 			f'{artist} Updated Setlist',
 			public=True,
 			collaborative=False,
-			description=f'Playlist automatically updated from setlist.fm. Last updated on {smart_time()} ET.'
+			description=f'Playlist automatically updated from recent setlist.fm setlists | Last updated: {smart_time()} ET. | github.com/DanteArcese/SpotifySetlist.'
 		)
 
 	if playlist_id:
