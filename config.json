@@ -1,0 +1,74 @@
+{
+    "environmentVariables": "../Credentials/credentials.json",
+    "redirectURI": "http://127.0.0.1:8080/callback",
+    "topArtists": 10,
+    "username": "yap8b0pkw7hdeqbfydk2cyj0a",
+    "playlists": [
+        {
+            "artistId": "alex-warren-5bf33308",
+            "artistName": "Alex Warren",
+            "scope": "playlist-modify-public",
+            "playlistId": "1vmiVCtf4mys0MKY0bZSey"
+        },
+        {
+            "artistId": "benson-boone-4bf0df42",
+            "artistName": "Benson Boone",
+            "scope": "playlist-modify-public",
+            "playlistId": "74zVoYvBa6uSe90SLXpbED"
+        },
+        {
+            "artistId": "katseye-2be62482",
+            "artistName": "KATSEYE",
+            "scope": "playlist-modify-public",
+            "playlistId": "5Cdw9pNC750fsyWtUGg4mj"
+        },
+        {
+            "artistId": "kendrick-lamar-bd2f5d6",
+            "artistName": "Kendrick Lamar",
+            "scope": "playlist-modify-public",
+            "playlistId": "6AK0sSY7TMCcTBpBmCKnBE"
+        },
+        {
+            "artistId": "lorde-6bdc4632",
+            "artistName": "Lorde",
+            "scope": "playlist-modify-public",
+            "playlistId": "4ajPRMJL31rmTG4fCUsG9n"
+        },
+        {
+            "artistId": "morgan-wallen-1bc0d530",
+            "artistName": "Morgan Wallen",
+            "playlistId": "2rrtKBgsR783O3LIuZZ4Kc",
+            "scope": "playlist-modify-public"
+        },
+        {
+            "artistId": "playboi-carti-63c7fa8f",
+            "artistName": "Playboi Carti",
+            "scope": "playlist-modify-public",
+            "playlistId": "7Be63LhV2LsLM3waPDhYoT"
+        },
+        {
+            "artistId": "sabrina-carpenter-4bdd3b6a",
+            "artistName": "Sabrina Carpenter",
+            "scope": "playlist-modify-public",
+            "playlistId": "3orbO3VYb2PLib2ZtTQT1u"
+        },
+        {
+            "artistId": "shaboozey-43c93367",
+            "artistName": "Shaboozey",
+            "scope": "playlist-modify-public",
+            "playlistId": "5VSLS4kZv01Cyw7UOEUXhM"
+        },
+        {
+            "artistId": "sza-73dd92f9",
+            "artistName": "SZA",
+            "scope": "playlist-modify-public",
+            "playlistId": ""
+        },
+        {
+            "artistId": "young-thug-3bdd88c8",
+            "artistName": "Young Thug",
+            "playlistId": "1Paw8IJv12ykuQ0FX7W5od",
+            "scope": "playlist-modify-public"
+        }
+    ]
+}
